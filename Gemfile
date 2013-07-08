@@ -18,13 +18,13 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', 1.2.3'
+  gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails' '2.0.0'
+gem 'jquery-rails' , '2.0.1'
 
 group :production do
-gem 'pg', '0.12.2'
+gem 'pg' , '0.12.2'
 end 
 
 # To use ActiveModel has_secure_password
